@@ -1,0 +1,6 @@
+framework module Pods_RogueMacAppTests {
+  umbrella header "Pods-RogueMacAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

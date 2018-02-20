@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3E6DEBB60348E5A98E229E /* Pods_RogueMacAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C602ACFCD3AF9225CC7887B /* Pods_RogueMacAppTests.framework */; };
+		3B97159CFB97B3AF86497BFA /* Pods_RogueMacAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C36B950203242E000BD7BA2 /* Pods_RogueMacAppTests.framework */; };
+		6C08B49520324AD800D10C31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C08B49620324AD800D10C31 /* Alamofire.framework */; };
+		6C36B92C2031342400BD7BA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36B92B2031342400BD7BA2 /* AppDelegate.swift */; };
+		6C36B92E2031342400BD7BA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36B92D2031342400BD7BA2 /* ViewController.swift */; };
+		6C36B9302031342400BD7BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C36B92F2031342400BD7BA2 /* Assets.xcassets */; };
+		6C36B9332031342400BD7BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C36B9312031342400BD7BA2 /* Main.storyboard */; };
+		6C36B93F2031342400BD7BA2 /* RogueMacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C36B93E2031342400BD7BA2 /* RogueMacAppTests.swift */; };
+		6C36B94F203242E000BD7BA2 /* Pods_RogueMacAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C36B950203242E000BD7BA2 /* Pods_RogueMacAppTests.framework */; };
+		6CDCE93020324F5C00B37A37 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CDCE93120324F5C00B37A37 /* SwiftyJSON.framework */; };
+		6CECF6292032990A002EECFD /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6CECF6282032990A002EECFD /* test.jpg */; };
+		FD0187EB7BA970FAEE42628C /* Pods_RogueMacApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2143B62532CC923D012595 /* Pods_RogueMacApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C36B93B2031342400BD7BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C36B9202031342400BD7BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C36B9272031342400BD7BA2;
+			remoteInfo = RogueMacApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		353044E1BA1153A71687147C /* Pods-RogueMacApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMacApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RogueMacApp/Pods-RogueMacApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D74609F1AD0A43C926347A8 /* Pods-RogueMacAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMacAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RogueMacAppTests/Pods-RogueMacAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C08B49620324AD800D10C31 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C36B9282031342400BD7BA2 /* RogueMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RogueMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C36B92B2031342400BD7BA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C36B92D2031342400BD7BA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C36B92F2031342400BD7BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C36B9322031342400BD7BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C36B9342031342400BD7BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C36B9352031342400BD7BA2 /* RogueMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RogueMacApp.entitlements; sourceTree = "<group>"; };
+		6C36B93A2031342400BD7BA2 /* RogueMacAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RogueMacAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C36B93E2031342400BD7BA2 /* RogueMacAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogueMacAppTests.swift; sourceTree = "<group>"; };
+		6C36B9402031342400BD7BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C36B94E2032426400BD7BA2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C36B950203242E000BD7BA2 /* Pods_RogueMacAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_RogueMacAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C36B9522032438900BD7BA2 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6AC1B4203248A6005DBC0B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6AC1BC2032499C005DBC0B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDCE93120324F5C00B37A37 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CECF6282032990A002EECFD /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = test.jpg; path = ../../PythonScripts/OCR/test.jpg; sourceTree = "<group>"; };
+		889107735094121BDB55105C /* Pods-RogueMacApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMacApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RogueMacApp/Pods-RogueMacApp.release.xcconfig"; sourceTree = "<group>"; };
+		9C602ACFCD3AF9225CC7887B /* Pods_RogueMacAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RogueMacAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF91B4DE4F59F224D0AE72D3 /* Pods-RogueMacAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RogueMacAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RogueMacAppTests/Pods-RogueMacAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC2143B62532CC923D012595 /* Pods_RogueMacApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RogueMacApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C36B9252031342400BD7BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDCE93020324F5C00B37A37 /* SwiftyJSON.framework in Frameworks */,
+				6C08B49520324AD800D10C31 /* Alamofire.framework in Frameworks */,
+				6C36B94F203242E000BD7BA2 /* Pods_RogueMacAppTests.framework in Frameworks */,
+				FD0187EB7BA970FAEE42628C /* Pods_RogueMacApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C36B9372031342400BD7BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3E6DEBB60348E5A98E229E /* Pods_RogueMacAppTests.framework in Frameworks */,
+				3B97159CFB97B3AF86497BFA /* Pods_RogueMacAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350BF187F5D54C29B812F957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				353044E1BA1153A71687147C /* Pods-RogueMacApp.debug.xcconfig */,
+				889107735094121BDB55105C /* Pods-RogueMacApp.release.xcconfig */,
+				AF91B4DE4F59F224D0AE72D3 /* Pods-RogueMacAppTests.debug.xcconfig */,
+				5D74609F1AD0A43C926347A8 /* Pods-RogueMacAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C36B91F2031342400BD7BA2 = {
+			isa = PBXGroup;
+			children = (
+				6C36B92A2031342400BD7BA2 /* RogueMacApp */,
+				6C36B93D2031342400BD7BA2 /* RogueMacAppTests */,
+				6C36B9292031342400BD7BA2 /* Products */,
+				350BF187F5D54C29B812F957 /* Pods */,
+				B1183ACA395B9B586D3F5DE6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C36B9292031342400BD7BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C36B9282031342400BD7BA2 /* RogueMacApp.app */,
+				6C36B93A2031342400BD7BA2 /* RogueMacAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C36B92A2031342400BD7BA2 /* RogueMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				6CECF6282032990A002EECFD /* test.jpg */,
+				6C36B92B2031342400BD7BA2 /* AppDelegate.swift */,
+				6C36B92D2031342400BD7BA2 /* ViewController.swift */,
+				6C36B92F2031342400BD7BA2 /* Assets.xcassets */,
+				6C36B9312031342400BD7BA2 /* Main.storyboard */,
+				6C36B9342031342400BD7BA2 /* Info.plist */,
+				6C36B9352031342400BD7BA2 /* RogueMacApp.entitlements */,
+			);
+			path = RogueMacApp;
+			sourceTree = "<group>";
+		};
+		6C36B93D2031342400BD7BA2 /* RogueMacAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C36B93E2031342400BD7BA2 /* RogueMacAppTests.swift */,
+				6C36B9402031342400BD7BA2 /* Info.plist */,
+			);
+			path = RogueMacAppTests;
+			sourceTree = "<group>";
+		};
+		B1183ACA395B9B586D3F5DE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CDCE93120324F5C00B37A37 /* SwiftyJSON.framework */,
+				6C08B49620324AD800D10C31 /* Alamofire.framework */,
+				6C6AC1BC2032499C005DBC0B /* Alamofire.framework */,
+				6C6AC1B4203248A6005DBC0B /* Alamofire.framework */,
+				6C36B9522032438900BD7BA2 /* Alamofire.framework */,
+				6C36B950203242E000BD7BA2 /* Pods_RogueMacAppTests.framework */,
+				6C36B94E2032426400BD7BA2 /* Alamofire.framework */,
+				EC2143B62532CC923D012595 /* Pods_RogueMacApp.framework */,
+				9C602ACFCD3AF9225CC7887B /* Pods_RogueMacAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C36B9272031342400BD7BA2 /* RogueMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C36B9432031342400BD7BA2 /* Build configuration list for PBXNativeTarget "RogueMacApp" */;
+			buildPhases = (
+				53B90B799ABBD98011E16705 /* [CP] Check Pods Manifest.lock */,
+				6C36B9242031342400BD7BA2 /* Sources */,
+				6C36B9252031342400BD7BA2 /* Frameworks */,
+				6C36B9262031342400BD7BA2 /* Resources */,
+				741E9C1E606A16B6CC7EE090 /* [CP] Embed Pods Frameworks */,
+				039048B6FBA1F8B9B07D2D95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RogueMacApp;
+			productName = RogueMacApp;
+			productReference = 6C36B9282031342400BD7BA2 /* RogueMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C36B9392031342400BD7BA2 /* RogueMacAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C36B9462031342400BD7BA2 /* Build configuration list for PBXNativeTarget "RogueMacAppTests" */;
+			buildPhases = (
+				908FB6C003D21E1F943CF514 /* [CP] Check Pods Manifest.lock */,
+				6C36B9362031342400BD7BA2 /* Sources */,
+				6C36B9372031342400BD7BA2 /* Frameworks */,
+				6C36B9382031342400BD7BA2 /* Resources */,
+				D701BDCE56B7A2609E25BD3D /* [CP] Embed Pods Frameworks */,
+				76102E3A0D760713C2B50C5C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C36B93C2031342400BD7BA2 /* PBXTargetDependency */,
+			);
+			name = RogueMacAppTests;
+			productName = RogueMacAppTests;
+			productReference = 6C36B93A2031342400BD7BA2 /* RogueMacAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C36B9202031342400BD7BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MalwareSec;
+				TargetAttributes = {
+					6C36B9272031342400BD7BA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6C36B9392031342400BD7BA2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C36B9272031342400BD7BA2;
+					};
+				};
+			};
+			buildConfigurationList = 6C36B9232031342400BD7BA2 /* Build configuration list for PBXProject "RogueMacApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C36B91F2031342400BD7BA2;
+			productRefGroup = 6C36B9292031342400BD7BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C36B9272031342400BD7BA2 /* RogueMacApp */,
+				6C36B9392031342400BD7BA2 /* RogueMacAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C36B9262031342400BD7BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C36B9302031342400BD7BA2 /* Assets.xcassets in Resources */,
+				6CECF6292032990A002EECFD /* test.jpg in Resources */,
+				6C36B9332031342400BD7BA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C36B9382031342400BD7BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039048B6FBA1F8B9B07D2D95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogueMacApp/Pods-RogueMacApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B90B799ABBD98011E16705 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RogueMacApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		741E9C1E606A16B6CC7EE090 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RogueMacApp/Pods-RogueMacApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogueMacApp/Pods-RogueMacApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76102E3A0D760713C2B50C5C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogueMacAppTests/Pods-RogueMacAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908FB6C003D21E1F943CF514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RogueMacAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D701BDCE56B7A2609E25BD3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RogueMacAppTests/Pods-RogueMacAppTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RogueMacAppTests/Pods-RogueMacAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C36B9242031342400BD7BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C36B92E2031342400BD7BA2 /* ViewController.swift in Sources */,
+				6C36B92C2031342400BD7BA2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C36B9362031342400BD7BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C36B93F2031342400BD7BA2 /* RogueMacAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C36B93C2031342400BD7BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C36B9272031342400BD7BA2 /* RogueMacApp */;
+			targetProxy = 6C36B93B2031342400BD7BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C36B9312031342400BD7BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C36B9322031342400BD7BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C36B9412031342400BD7BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6C36B9422031342400BD7BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+			};
+			name = Release;
+		};
+		6C36B9442031342400BD7BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353044E1BA1153A71687147C /* Pods-RogueMacApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RogueMacApp/RogueMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = RogueMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MalwareSec.RogueMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+			};
+			name = Debug;
+		};
+		6C36B9452031342400BD7BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 889107735094121BDB55105C /* Pods-RogueMacApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RogueMacApp/RogueMacApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+				INFOPLIST_FILE = RogueMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MalwareSec.RogueMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "$(inherited)/**";
+			};
+			name = Release;
+		};
+		6C36B9472031342400BD7BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF91B4DE4F59F224D0AE72D3 /* Pods-RogueMacAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RogueMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MalwareSec.RogueMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RogueMacApp.app/Contents/MacOS/RogueMacApp";
+			};
+			name = Debug;
+		};
+		6C36B9482031342400BD7BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D74609F1AD0A43C926347A8 /* Pods-RogueMacAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RogueMacAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MalwareSec.RogueMacAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RogueMacApp.app/Contents/MacOS/RogueMacApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C36B9232031342400BD7BA2 /* Build configuration list for PBXProject "RogueMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C36B9412031342400BD7BA2 /* Debug */,
+				6C36B9422031342400BD7BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C36B9432031342400BD7BA2 /* Build configuration list for PBXNativeTarget "RogueMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C36B9442031342400BD7BA2 /* Debug */,
+				6C36B9452031342400BD7BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C36B9462031342400BD7BA2 /* Build configuration list for PBXNativeTarget "RogueMacAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C36B9472031342400BD7BA2 /* Debug */,
+				6C36B9482031342400BD7BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C36B9202031342400BD7BA2 /* Project object */;
+}
